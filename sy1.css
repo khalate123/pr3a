@@ -1,0 +1,64 @@
+body, html {
+ background-image: url("https://www.shutterstock.com/image-photo/assorted-differentasian-food-chinese-260nw-1900062550.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+ .topright {
+ position: absolute;
+ top: 5px;
+ right: 12px;
+ font-size: 18px }
+ h1 {
+ font-size: 50px;
+ padding-right: 20px;
+ color:white;
+ }
+ .topnav {
+ overflow: hidden;
+ background-color: rgb(218, 27, 27);
+ position: fixed;
+ padding-left: 20px;
+ padding-top: 50px;
+ }
+ .topnav a {
+ float: left;
+ text-align: center;
+ padding: 0px 20px;
+ font-size: 30px;
+ background-size: cover;
+ color:white
+ }
+ .topnav a.active {
+ color: white;
+ }
+ .column {
+ float: left;
+ width: 25%;
+ padding: 70px;
+ }
+ .row::after {
+ content: "";
+ clear: both;
+ display: table; }
+ form.example input[type=text] {
+ padding: 15px;
+ font-size: 17px;
+ border: 1px solid grey;
+ float: center;
+ width: 100%;
+ background: #eee6e6; }
+ form.example button {
+ float: left;
+ width: 100%;
+ padding: 10px;
+ background: #f00c0c;
+ color: rgb(255, 255, 255);
+ font-size: 17px;
+ border: 1px solid grey;
+ border-left: none;
+ cursor: pointer;
+ }
+ form.example button:hover {
+ background: #ec1022;
+ }

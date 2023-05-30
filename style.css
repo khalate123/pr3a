@@ -1,0 +1,70 @@
+body, html {
+ background-image: url("13.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+ .topright {
+ position: absolute;
+ top: 5px;
+ right: 10px;
+ font-size: 18px; }
+ 
+ h1{
+	 color:white;
+ }
+ h2 {
+ font-size: 35px;
+ padding-right: 50px;
+ color:white;
+ }
+ .topnav {
+ overflow: hidden;
+ background-color: black;
+ position: fixed;
+ top: 0px;
+ width: 100%;
+ padding-left: 30px;
+ padding-top: 20px;
+ }
+ .topnav a {
+float: left;
+ text-align: center;
+ padding: 0px 20px;
+ font-size: 25px;
+ background-size: cover;
+ color:white
+ }
+ .topnav a.active {
+ color: white;
+ }
+ .column {
+ float: left;
+ width: 25%;
+ padding: 50px;
+ }
+ .row::after {
+ content: "";
+ clear: both;
+ display: table; }
+ form.example input[type=text] {
+ padding: 10px;
+ font-size: 17px;
+ border: 1px solid grey;
+ float: center;
+ width: 100%;
+ background: #eee6e6; }
+ form.example button {
+ float: left;
+ width: 100%;
+ padding: 10px;
+ background: #f00c0c;
+ color: white;
+ font-size: 17px;
+ border: 1px solid grey;
+ border-left: none;
+ cursor: pointer;
+ }
+ form.example button:hover {
+ background: #ec1022;
+ }

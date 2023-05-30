@@ -1,0 +1,52 @@
+body, html {
+ height: 100%;
+ margin: 0;
+ }
+ .topright {
+ position: absolute;
+ top: 5px;
+ right: 10px;
+ font-size: 18px;
+
+ }
+ h2 {
+ font-size: 35px;
+ padding-right: 50px;
+ color:white;
+ }
+ 
+ h1 {
+ font-size: 50px;
+ text-align: right;
+ color:white;}
+ 
+ .image {
+ background-image: url("12.jpg");
+ height: 100%;
+ 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .topnav {
+ overflow: hidden;
+ background-color: black;
+ position: fixed;
+ top: 0px;
+ width: 100%;
+ padding-left: 30px;
+ padding-top: 20px;
+ }
+ .topnav a {
+ float: left;
+ text-align: center;
+ padding: 0px 20px;
+ font-size: 25px;
+ background-size: cover;
+ color:white
+ }
+ .topnav a.active {
+
+ color: white;
+ }
